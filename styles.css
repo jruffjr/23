@@ -1,0 +1,127 @@
+body {
+  text-align: center;
+  background-color: black;
+  opacity: 1;
+  transition: 1s;
+}
+
+body:onload {
+  opacity: 1;
+}
+
+
+.coverimg {
+  max-width: 100%;
+  height:100%;
+  margin: 0;
+  z-index: -1;
+  opacity: 1;
+  transition: 1s;
+}
+.coverimg1 {
+  max-width: 100%;
+  height:100%;
+  margin: 0;
+  z-index: -1;
+  opacity: 0;
+
+}
+.aboutcar {
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  right: 25%;
+  top: 200px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 3;
+  transition: 1s;
+}
+.aboutafter {
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  right: 25%;
+  top: 200px;
+  visibility: visible;
+  opacity: 1;
+  z-index: 3;
+}
+
+
+.carouselimg {
+  border-radius: 100%;
+  height: 700px;
+  width: 700px;
+}
+
+.carouselimg:hover {
+  border-radius: 100%;
+  height: 700px;
+  width: 700px;
+}
+
+
+.home {
+  position: relative;
+  bottom: 80rem;
+  font-size: 5rem;
+  color: #1089ff;
+  text-decoration: underline overline #ffd739;
+  z-index: 5;
+  opacity: 1;
+  transition: 1s;
+}
+.goaway {
+  position: relative;
+  bottom: 80rem;
+  font-size: 5rem;
+  opacity: 0;
+  z-index: 6;
+  transition: 1s;
+}
+.home1 {
+  position: relative;
+  bottom: 80rem;
+  font-size: 5rem;
+  color: #1089ff;
+  text-decoration: underline overline #ffd739;
+  z-index: 5;
+  opacity: 1;
+  transition: 1s;
+  transform: translate(0, 30px);
+
+}
+#second {
+  color: #1089ff;
+  text-decoration: underline overline #ffd739;
+
+}
+
+.change {
+  display: inline;
+  position: relative;
+  bottom: 80rem;
+  font-size: 5rem;
+  color: #1089ff;
+  text-decoration: underline overline #ffd739;
+}
+
+li {
+  padding: 0 100px;
+}
+
+button {
+  border-radius: 100%;
+  padding: 100px;
+  transition: 1s;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+#carousel {
+  text-align: center;
+  padding: 30px;
+}
